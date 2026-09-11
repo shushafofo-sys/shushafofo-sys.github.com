@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST EVENT PLATFORM | L'art de l'événement exceptionnel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="j.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+
+    <div class="grain-overlay"></div>
+
+    <nav class="sticky-nav">
+        <div class="nav-logo">GHOST</div>
+        <ul class="nav-links">
+            <li><a href="#cover" class="nav-link active">00</a></li>
+            <li><a href="#intro" class="nav-link">01</a></li>
+            <li><a href="#pilier1" class="nav-link">02</a></li>
+            <li><a href="#pilier2" class="nav-link">03</a></li>
+            <li><a href="#pilier3" class="nav-link">04</a></li>
+            <li><a href="#pilier4" class="nav-link">05</a></li>
+            <li><a href="#pilier5" class="nav-link">06</a></li>
+            <li><a href="#contact" class="nav-link">07</a></li>
+        </ul>
+        <!-- Ce bouton sera masqué automatiquement en mode admin -->
+        <button id="nav-login-btn" class="btn-ghost visitor-only">Se connecter</button>
+    </nav>
+
+    <!-- PAGE 1 : COUVERTURE -->
+    <section id="cover" class="section full-screen theme-dark flex-center">
+        <div class="inner-frame">
+            <div class="brand-mark-wrap">
+                <div class="brand-mark" aria-label="Espace photo">
+                    <img id="cover-brand-photo" class="brand-photo" alt="Photo à insérer" src="" />
+                    <input type="file" id="brand-photo-upload" accept="image/*" class="hidden" />
+                </div>
+            </div>
+            <h1 class="giant-title" contenteditable="true" data-save-id="cover-title">GHOST EVENT PLATFORM</h1>
+            <p class="subtitle" contenteditable="true" data-save-id="cover-subtitle">L'art de l'événement invisible.</p>
+            <div class="separator"></div>
+            <p class="hero-text" contenteditable="true" data-save-id="cover-text">Nous concevons, structurons et accompagnons des événements ambitieux. De la vision initiale à l'expérience finale, Ghost mobilise sa stratégie, son expertise et son réseau pour transformer une intention en un événement maîtrisé.</p>
+            <p class="signature" contenteditable="true" data-save-id="cover-signature">STRUCTURER. ORCHESTRER. POSITIONNER. ÉLEVER.</p>
+            
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 2 : INTRODUCTION -->
+    <section id="intro" class="section theme-light">
+        <div class="container">
+            <span class="ghost-number">01</span>
+            <span class="overline">Introduction</span>
+            <h2 class="section-title" contenteditable="true" data-save-id="intro-title">Une nouvelle manière de penser l'événement.</h2>
+            <div class="text-block" contenteditable="true" data-save-id="intro-text1">
+                <p>Ghost Event Platform est une plateforme d'accompagnement stratégique et opérationnel dédiée aux organisateurs, aux porteurs de projets et aux particuliers qui souhaitent créer des événements à la hauteur de leur ambition.</p>
+                <p>Notre rôle ne consiste pas simplement à « organiser ». Nous intervenons là où un projet a besoin de vision, de structure et des bonnes connexions pour prendre une dimension supérieure.</p>
+            </div>
+            <div class="text-block" contenteditable="true" data-save-id="intro-text2">
+                <p>À Goma et dans ses environs, Ghost s'appuie sur une équipe et un réseau de partenaires soigneusement sélectionnés afin d'accompagner chaque projet avec plus de cohérence, d'exigence et d'efficacité.</p>
+            </div>
+            
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="icon">◆</div>
+                    <h3>L'EXPERTISE</h3>
+                    <p contenteditable="true" data-save-id="intro-p1">Pour comprendre les réalités d'un événement et anticiper ses besoins.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon">◆</div>
+                    <h3>LA STRATÉGIE</h3>
+                    <p contenteditable="true" data-save-id="intro-p2">Pour donner une direction claire à chaque étape du projet.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon">◆</div>
+                    <h3>LE RÉSEAU</h3>
+                    <p contenteditable="true" data-save-id="intro-p3">Pour recommander et connecter les bons profils au bon moment.</p>
+                </div>
+            </div>
+
+            <div class="text-block highlight-box" contenteditable="true" data-save-id="intro-collab">
+                <h4>UNE COLLABORATION CLAIRE</h4>
+                <p>Nos missions sont définies dans un cadre contractuel précis. Notre rémunération prend la forme d'honoraires convenus à l'avance et, pour certains projets, d'un accord incluant une rémunération liée aux revenus de billetterie.</p>
+                <p class="italic">Based in Goma. Connected to the right people.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 3 : PILIER 1 -->
+    <section id="pilier1" class="section theme-dark">
+        <div class="container">
+            <span class="ghost-number">02</span>
+            <span class="overline">Pilier 01</span>
+            <h2 class="section-title" contenteditable="true" data-save-id="p1-title">L'Architecture Événementielle Invisible</h2>
+            <p class="lead" contenteditable="true" data-save-id="p1-lead">Nous ne commençons pas par les détails. Nous commençons par la structure.</p>
+            
+            <div class="two-col">
+                <div class="text-block" contenteditable="true" data-save-id="p1-mission">
+                    <h3>NOTRE MISSION</h3>
+                    <ul>
+                        <li>La nature réelle de l'événement</li>
+                        <li>Son positionnement et son public</li>
+                        <li>Ses priorités et différentes étapes</li>
+                        <li>Les responsabilités de chaque acteur</li>
+                    </ul>
+                </div>
+                <div class="text-block" contenteditable="true" data-save-id="p1-magic">
+                    <h3>LA MAGIE, SANS LA MÉCANIQUE</h3>
+                    <p>Notre ambition est simple : créer une organisation suffisamment fluide pour que le public ne voie jamais la complexité qui se trouve derrière.</p>
+                    <p>Le client vit l'expérience. Les invités ressentent l'énergie. Ghost maîtrise la structure.</p>
+                    <p class="signature-quote" contenteditable="true" data-save-id="p1-sig">« Une expérience exceptionnelle commence par une architecture que personne ne remarque. »</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 4 : PILIER 2 -->
+    <section id="pilier2" class="section theme-light">
+        <div class="container">
+            <span class="ghost-number">03</span>
+            <span class="overline">Pilier 02</span>
+            <h2 class="section-title" contenteditable="true" data-save-id="p2-title">L'Orchestration de l'Éphémère</h2>
+            <p class="lead" contenteditable="true" data-save-id="p2-lead">Une expérience ne dure parfois que quelques heures. Sa préparation, elle, ne laisse aucune place au hasard.</p>
+            
+            <div class="editable-list" contenteditable="true" data-save-id="p2-list">
+                <h3>NOUS ANTICIPONS L'ESSENTIEL</h3>
+                <ul class="dynamic-list">
+                    <li contenteditable="true">La coordination des différents intervenants</li>
+                    <li contenteditable="true">La gestion des priorités et du timing</li>
+                    <li contenteditable="true">L'organisation des flux et l'adaptation aux contraintes</li>
+                    <li contenteditable="true">L'anticipation des imprévus</li>
+                </ul>
+                <button class="admin-only btn-add" onclick="window.addListItem('p2-list')">+ Ajouter un point</button>
+            </div>
+
+            <div class="text-block highlight-box" contenteditable="true" data-save-id="p2-outside">
+                <h4>POUR LES PROJETS QUI SORTENT DU CADRE</h4>
+                <p>Lieux atypiques, formats pop-up, expériences privées. Ghost pense chaque dispositif avec méthode, tout en conservant la flexibilité nécessaire.</p>
+                <p class="signature-quote">« Prévoir l'inattendu sans jamais interrompre l'expérience. »</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 5 : PILIER 3 -->
+    <section id="pilier3" class="section theme-dark">
+        <div class="container">
+            <span class="ghost-number">04</span>
+            <span class="overline">Pilier 03</span>
+            <h2 class="section-title" contenteditable="true" data-save-id="p3-title">L'Accès Avant la Promotion</h2>
+            <p class="lead" contenteditable="true" data-save-id="p3-lead">Nous ne cherchons pas simplement à remplir un événement. Nous créons une raison d'y être.</p>
+            
+            <div class="two-col">
+                <div class="text-block" contenteditable="true" data-save-id="p3-marketing">
+                    <h3>NOTRE APPROCHE MARKETING</h3>
+                    <p>Identité, positionnement, storytelling, calendrier de communication, activation digitale et mobilisation de profils influents.</p>
+                </div>
+                <div class="text-block" contenteditable="true" data-save-id="p3-network">
+                    <h3>UN RÉSEAU QUI CRÉE DE LA PORTÉE</h3>
+                    <p>Grâce à notre connaissance de l'écosystème local à Goma, nous orientons vers des influenceurs et personnalités reconnus, selon la pertinence du projet.</p>
+                    <p class="signature-quote" contenteditable="true" data-save-id="p3-sig">« Ce qui est accessible à tous attire l'attention. Ce qui est désirable crée l'attente. »</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 6 : PILIER 4 -->
+    <section id="pilier4" class="section theme-light">
+        <div class="container">
+            <span class="ghost-number">05</span>
+            <span class="overline">Pilier 04</span>
+            <h2 class="section-title" contenteditable="true" data-save-id="p4-title">La Maîtrise du Premium</h2>
+            <p class="lead" contenteditable="true" data-save-id="p4-lead">Le haut de gamme n'est pas une question de prix. C'est une question de niveau d'exigence.</p>
+            
+            <div class="text-block" contenteditable="true" data-save-id="p4-coherence">
+                <h3>CE QUE NOUS RECHERCHONS</h3>
+                <p>La cohérence absolue entre : le concept, le lieu, le public, l'ambiance, les partenaires, la communication et le parcours des invités.</p>
+            </div>
+            <div class="text-block" contenteditable="true" data-save-id="p4-elevate">
+                <h3>ÉLEVER SANS DÉNATURER</h3>
+                <p>Notre rôle est d'identifier le potentiel unique d'un projet, puis de l'aider à atteindre un niveau supérieur. Toujours avec une même ambition : faire en sorte que chaque choix ait du sens.</p>
+                <p class="signature-quote" contenteditable="true" data-save-id="p4-sig">« Le premium commence là où l'on refuse de considérer le détail comme secondaire. »</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 7 : PILIER 5 -->
+    <section id="pilier5" class="section theme-dark">
+        <div class="container">
+            <span class="ghost-number">06</span>
+            <span class="overline">Pilier 05</span>
+            <h2 class="section-title" contenteditable="true" data-save-id="p5-title">Le Cercle des Initiés</h2>
+            <p class="lead" contenteditable="true" data-save-id="p5-lead">Les meilleurs projets ne reposent pas sur le plus grand nombre de contacts. Ils reposent sur les bonnes personnes.</p>
+            
+            <div class="editable-list" contenteditable="true" data-save-id="p5-ecosystem">
+                <h3>NOTRE ÉCOSYSTÈME PEUT COMPRENDRE</h3>
+                <ul class="dynamic-list">
+                    <li contenteditable="true">Traiteurs & Artistes</li>
+                    <li contenteditable="true">Photographes & Vidéastes</li>
+                    <li contenteditable="true">Créatifs & Professionnels de la communication</li>
+                    <li contenteditable="true">Profils influents & Personnalités publiques</li>
+                </ul>
+                <button class="admin-only btn-add" onclick="window.addListItem('p5-ecosystem')">+ Ajouter un partenaire</button>
+            </div>
+
+            <div class="text-block highlight-box" contenteditable="true" data-save-id="p5-circle">
+                <h4>LE CERCLE GHOST</h4>
+                <p>Nous privilégions les collaborations fondées sur : LA FIABILITÉ, LA QUALITÉ, LA PERTINENCE, LA DISCRÉTION.</p>
+                <p class="signature-quote" contenteditable="true" data-save-id="p5-sig">« Notre réseau n'est pas une liste. C'est un écosystème de possibilités. »</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAGE 8 : APPEL À L'ACTION -->
+    <section id="contact" class="section full-screen theme-dark flex-center">
+        <div class="container text-center">
+            <span class="overline">Contact</span>
+            <h2 class="section-title" contenteditable="true" data-save-id="cta-title">Votre événement mérite plus qu'une organisation.</h2>
+            <p class="lead" contenteditable="true" data-save-id="cta-lead">Il mérite une vision. Prêt à faire briller votre événement avec nous ?</p>
+            
+            <div class="contact-grid" contenteditable="true" data-save-id="cta-contact">
+                <div class="contact-item">
+                    <span class="label">Téléphone / WhatsApp</span>
+                    <span class="value">+243 000 000 000</span>
+                </div>
+                <div class="contact-item">
+                    <span class="label">E-mail</span>
+                    <span class="value">contact@ghost-platform.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="label">Instagram</span>
+                    <span class="value">@ghost.event</span>
+                </div>
+            
+            
+                <div class="contact-item">
+                    <span class="label">Basé à GOMA</span>
+                    <span class="value">Goma — Disponible pour des projets sélectionnés.</span>
+                </div>
+            </div>
+
+            <div class="final-signature">
+                <h3 class="giant-title" style="font-size: 3rem;">GHOST</h3>
+                <p contenteditable="true" data-save-id="cta-final">Ce que vos invités vivront. Ce que nous aurons rendu possible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer theme-light">
+        <div class="container flex-between">
+            <div>
+                <span class="monogram">G</span>
+                <p>GHOST EVENT PLATFORM</p>
+            </div>
+            <div class="text-right">
+                <p id="current-date"></p>
+                <button id="reset-canvas-btn" class="admin-only btn-text-danger">Réinitialiser le canevas</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL DE CONNEXION -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h3>Accès Administrateur</h3>
+            <p>Veuillez entrer le code de sécurité.</p>
+            <input type="password" id="admin-code-input" placeholder="Code d'accès" autocomplete="off">
+            <p id="login-error" class="error-msg">Code incorrect. Veuillez réessayer.</p>
+            <button id="login-submit" class="btn-primary">Valider</button>
+        </div>
+    </div>
+
+    <!-- BADGES FLOTTANTS -->
+    <div id="admin-badge" class="floating-badge admin-only">
+        <span>Mode Édition</span>
+        <button id="lock-btn" class="btn-small">Verrouiller</button>
+    </div>
+
+    <div id="save-status" class="floating-badge save-status">
+        <span id="save-status-text">Prêt</span>
+    </div>
+</body>
+</html>
